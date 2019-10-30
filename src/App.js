@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-// import HeaderArea from './HeaderArea'
 import Nav from './Nav'
 import Skills from './Skills'
 import Projects from './Projects'
 import ContactInfo from './Contact'
+import pdf from './resume/FinalResumecopy.pdf'
 
 
 
@@ -19,8 +19,11 @@ function App() {
                   <h1 className="bigheadline">John Peña</h1>
                   <h4 className="subheadline">Full Stack Web Developer</h4>
               </div>
+              <h1>
+                <i className="pe-7s-portfolio pe-dj pe-va" /><span><a href={pdf}>  View Resume</a></span>
+              </h1>
               <div className="bottom">
-                  <a data-scroll href="#navigation" className="scrollDown animated pulse" id="scrollToContent"><i className="pe-7s-angle-down-circle pe-va"></i></a>
+                <a data-scroll href="#navigation" className="scrollDown animated pulse" id="scrollToContent"><i className="pe-7s-angle-down-circle pe-va"></i></a>
               </div>
           </header>
   <Nav />

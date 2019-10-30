@@ -124,21 +124,19 @@ $(document).ready(function(){
 
 
 
-var menu = $('#navigation');
-var origOffsetY = menu.offset().top;
+let menu = jQuery('#navigation');
+let origOffsetY = menu.offset().top;
 
 function scroll() {
-   if ($(window).scrollTop() >= origOffsetY) {
-       $('#navigation').addClass('nav-wrap');
-       $('#services').addClass('exp');
-       //$('.content').addClass('menu-padding');
+   if (jQuery(window).scrollTop() >= origOffsetY) {
+       jQuery('#navigation').addClass('nav-wrap');
+       jQuery('#services').addClass('exp');
+       //jQuery('.content').addClass('menu-padding');
    } else {
-       $('#navigation').removeClass('nav-wrap');
-       $('#services').removeClass('exp');
+       jQuery('#navigation').removeClass('nav-wrap');
+       jQuery('#services').removeClass('exp');
        //$('.content').removeClass('menu-padding');
    }
-
-
 
 }
 

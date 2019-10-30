@@ -1,4 +1,6 @@
 import React from 'react';
+import pdf from './resume/FinalResumecopy.pdf'
+
 
 const ContactInfo = () => {
   return (
@@ -13,7 +15,12 @@ const ContactInfo = () => {
             <div className="col-sm-6">
               <div className="moreDetails">
                 <h2 className="con-title">More About me</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum animi repudiandae nihil aspernatur repellat temporibus doloremque sint ea laboriosam, excepturi iure inventore rerum voluptatibus, suscipit totam, sit necessitatibus. Rerum, blanditiis. </p>
+                <p> If you managed to make it this far, welcome! I was born and raised by a single immigrant mother from Mexico in New York.
+                I love solving riddles, puzzles, and always on the look for the next challenge! Programming has so far been the most amazing
+                career choice and I fell in love with the never-ending learning experience.
+                <br/>When I'm not doing anything code related I'm either watching Youtube videos
+                or playing videos game on PC or console. Anywho, if there's anything else you'd like to know, shoot me an email and I'll definately get back to you! Thanks for reading!
+                    </p>
                 <ul className="address">
                   <li><i className="pe-7s-map-marker" /><span>86-88 104Th St.,<br />Queens, NY 11418,<br />United States</span></li>
                   <li><i className="pe-7s-mail" /><span>jpena91@@gmail.com</span></li>
@@ -22,6 +29,10 @@ const ContactInfo = () => {
                 </ul>
               </div>
             </div>
+              <i className="pe-7s-portfolio pe-dj pe-va" />
+              <h1>
+              <a href={pdf}>View Resume</a>
+              </h1>
           </div>
         </div>
       </div>

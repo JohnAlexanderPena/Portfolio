@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Skills = () => {
-  
+
   return (
     <section id="services" className="service-area">
   <div className="container">
@@ -12,7 +12,7 @@ const Skills = () => {
           <div className="service-wrap">
             <i className="pe-7s-science pe-dj pe-va" />
             <h3>React.js</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, commodi.</p>
+            <p>In Depth knowledge of React Router, Redux, and React Styling Libraries such as Semantic.</p>
           </div>
         </div>
       </div>
@@ -21,7 +21,7 @@ const Skills = () => {
           <div className="service-wrap">
             <i className="pe-7s-graph1 pe-dj pe-va" />
             <h3>JavaScript</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, commodi.</p>
+            <p>In Depth Knowledge of Data Structures, Algorithms, and Design Patterns</p>
           </div>
         </div>
       </div>
