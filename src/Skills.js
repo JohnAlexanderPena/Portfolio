@@ -44,7 +44,16 @@ const Skills = () => {
         </div>
       </div>
     </div>
+    <div className="skills">
+      <div className="service-wrap">
+        <i className="pe-7s-network pe-dj pe-va" />
+        <h3>Amazon Web Services</h3>
+        <p>Experience with AWS in S3,CloudFront, and Route 53</p>
+      </div>
+    </div>
   </div>
+
+
 
   <div className="container">
   <h3 className="block_title">Developing Skills</h3>
