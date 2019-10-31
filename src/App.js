@@ -17,7 +17,7 @@ function App() {
         <header id="header">
               <div className="center text-center">
                   <h1 className="bigheadline">John Peña</h1>
-                  <h4 className="subheadline">Full Stack Web Developer</h4>
+                  <h4 className="subheadline">Software Engineer</h4>
               </div>
               <h1>
                 <i className="pe-7s-portfolio pe-dj pe-va" /><span><a href={pdf}>  View Resume</a></span>

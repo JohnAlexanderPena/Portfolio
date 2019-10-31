@@ -26,6 +26,16 @@ return (
               <h3>Meal Prep Website</h3>
             </figure>
           </div>
+          <div className="col-md-4 col-sm-6 col-xs-12 item-space">
+            <figure>
+              <img src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX20130499.jpg" alt="img01" />
+              <figcaption>
+                <span>John Peña</span>
+                <a href="idk" className="button">In Progress</a>
+              </figcaption>
+              <h3>Networking Website in Progress....</h3>
+            </figure>
+          </div>
         </div>
       </div>
     </section>

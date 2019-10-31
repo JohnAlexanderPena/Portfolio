@@ -30,7 +30,7 @@ const Skills = () => {
           <div className="service-wrap">
             <i className="pe-7s-tools pe-dj pe-va" />
             <h3>Ruby on Rails</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, commodi.</p>
+            <p>Ability to use Proper MVC design patterns using Sinatra and able to adhere to strict RESTful routing patterns for CRUD processes.</p>
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@ const Skills = () => {
           <div className="service-wrap">
             <i className="pe-7s-note pe-dj pe-va" />
             <h3>HTML/CSS</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, commodi.</p>
+            <p>Able to use manipulate window elements to dynamically alter styling and rendition for better web designs.</p>
           </div>
         </div>
       </div>

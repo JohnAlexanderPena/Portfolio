@@ -15,24 +15,24 @@ const ContactInfo = () => {
             <div className="col-sm-6">
               <div className="moreDetails">
                 <h2 className="con-title">More About me</h2>
-                <p> If you managed to make it this far, welcome! I was born and raised by a single immigrant mother from Mexico in New York.
-                I love solving riddles, puzzles, and always on the look for the next challenge! Programming has so far been the most amazing
-                career choice and I fell in love with the never-ending learning experience.
-                <br/>When I'm not doing anything code related I'm either watching Youtube videos
-                or playing videos game on PC or console. Anywho, if there's anything else you'd like to know, shoot me an email and I'll definately get back to you! Thanks for reading!
+                <p> Caution! Very cool story ahead.. A little background, I was born in New York and raised by a single immigrant mother from Mexico for almost my entire life.
+                  So yes, yo hablo español, add that to the list of languages I know haha.<br/>
+                I love solving riddles, puzzles, and always on the look for the next challenge! Programming has been the most amazing
+                 life changing decision I made, and I fell in love with the never-ending learning experience that comes with it!
+                 </p>
+                 <p>
+                When I'm not doing anything code related I'm either watching documentaries, entering Youtube rabbit holes, listening to podcasts,
+                  or playing videos games on PC or my PS4. Anywho, if there's anything else you'd like to know, shoot me an email and I'll definitely get back to you! Thanks for reading!
                     </p>
-                <ul className="address">
-                  <li><i className="pe-7s-map-marker" /><span>86-88 104Th St.,<br />Queens, NY 11418,<br />United States</span></li>
-                  <li><i className="pe-7s-mail" /><span>jpena91@@gmail.com</span></li>
-                  <li><i className="pe-7s-phone" /><span>646-920-5848</span></li>
-                  <li><i className="pe-7s-global" /><span><a href="#tbd">www.johnalexanderpena.com</a></span></li>
-                </ul>
               </div>
             </div>
               <i className="pe-7s-portfolio pe-dj pe-va" />
               <h1>
               <a href={pdf}>View Resume</a>
               </h1>
+                  <i className="pe-7s-map-marker" /><span>   Queens, NY,<br />United States</span><br />
+                  <i className="pe-7s-mail" /><span>  jpena91@@gmail.com</span><br />
+                  <i className="pe-7s-phone" /><span>  646-920-5848</span><br />
           </div>
         </div>
       </div>
