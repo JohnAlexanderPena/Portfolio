@@ -36,9 +36,11 @@ var $ = jQuery;
   ///////////////////////////////
 
   function setHomeBannerHeight() {
-    var windowHeight = jQuery(window).height();
-    jQuery('#header').height(windowHeight);
+    var windowHeight = $(window).height();
+    $('#header').height(windowHeight);
   }
+
+
 
   ///////////////////////////////
   // Center Home Slideshow Text
@@ -47,17 +49,18 @@ var $ = jQuery;
   function centerHomeBannerText() {
       var bannerText = jQuery('#header > .center');
       var bannerTextTop = (jQuery('#header').actual('height')/2) - (jQuery('#header > .center').actual('height')/2) - 40;
+      
       bannerText.css('padding-top', bannerTextTop+'px');
       bannerText.show();
   }
 
   function setHeaderBackground() {
-    var scrollTop = jQuery(window).scrollTop(); // our current vertical position from the top
+    var scrollTop = $(window).scrollTop(); // our current vertical position from the top
 
-    if (scrollTop > 300 || jQuery(window).width() < 700) {
-      jQuery('#header .top').addClass('solid');
+    if (scrollTop > 300 || $(window).width() < 700) {
+      $('#header .top').addClass('solid');
     } else {
-      jQuery('#header .top').removeClass('solid');
+      $('#header .top').removeClass('solid');
     }
   }
 
@@ -68,7 +71,7 @@ var $ = jQuery;
   // Initialize
   ///////////////////////////////
 
-  jQuery.noConflict();
+  $.noConflict();
   setHomeBannerHeight();
   centerHomeBannerText();
 
@@ -124,17 +127,17 @@ $(document).ready(function(){
 
 
 
-let menu = jQuery('#navigation');
+let menu = $('#navigation');
 let origOffsetY = menu.offset().top;
 
 function scroll() {
-   if (jQuery(window).scrollTop() >= origOffsetY) {
-       jQuery('#navigation').addClass('nav-wrap');
-       jQuery('#services').addClass('exp');
+   if ($(window).scrollTop() >= origOffsetY) {
+       $('#navigation').addClass('nav-wrap');
+       $('#services').addClass('exp');
        //jQuery('.content').addClass('menu-padding');
    } else {
-       jQuery('#navigation').removeClass('nav-wrap');
-       jQuery('#services').removeClass('exp');
+       $('#navigation').removeClass('nav-wrap');
+       $('#services').removeClass('exp');
        //$('.content').removeClass('menu-padding');
    }
 
