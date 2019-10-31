@@ -15,7 +15,7 @@ const ContactInfo = () => {
             <div className="col-sm-6">
               <div className="moreDetails">
                 <h2 className="con-title">More About me</h2>
-                <p> Caution! Very cool story ahead.. A little background, I was born in New York and raised by a single immigrant mother from Mexico for almost my entire life.
+                <p> Caution! Very cool story ahead.. A little background, I was born in New York and raised by a single immigrant mother from Mexico.
                   So yes, yo hablo español, add that to the list of languages I know haha.<br/>
                 I love solving riddles, puzzles, and always on the look for the next challenge! Programming has been the most amazing
                  life changing decision I made, and I fell in love with the never-ending learning experience that comes with it!
