@@ -42,8 +42,10 @@ const ContactInfo = () => {
           <div className="col-xs-12">
             <ul className="scoialinks">
               <li className="normal-txt">Find me on</li>
-              <li className="social-icons"><a className="linkedin" href={"https://www.linkedin.com/in/john-pena-7bb867b9"} /></li>
-              <li className="social-icons"><a className="wordpress" href={"https://medium.com/@jpena91"} /></li>
+              <li className="social-icons"><a target="_blank" rel="noopener noreferrer" className="linkedin" href={"https://www.linkedin.com/in/john-pena-7bb867b9"} /></li>
+              <li className="social-icons"><a target="_blank" rel="noopener noreferrer" className="medium" href={"https://medium.com/@jpena91"} /></li>
+              <li className="social-icons"><a target="_blank" rel="noopener noreferrer" className="github" href={"https://github.com/JohnAlexanderPena"} /></li>
+
             </ul>
           </div>
         </div>

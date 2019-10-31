@@ -31,15 +31,23 @@ Text Domain: darkjoe
 //  01 - Universal
 /////////////////////////////////////////////////////////////////////*/
 
+/* font-family: 'Ubuntu', sans-serif;
+font-family: 'Source Serif Pro', serif; */
+
 html, body {
     height:100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Source Serif Pro', serif;
 }
 
 body {
-	font-family: 'Lato', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Source Serif Pro', serif;
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Dosis', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Source Serif Pro', serif;
 }
 a {
 	color: #e66f69;
@@ -108,12 +116,16 @@ header{
 }
 .bigheadline {
 	font-family: 'Raleway', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Source Serif Pro', serif;
 	font-weight: 100;
 	font-size: 10em;
 	margin: 0;
 }
 .subheadline {
 	font-family: 'Titillium Web', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Source Serif Pro', serif;
 	font-weight: 200;
 	font-size: 3em;
 	margin: 0;
@@ -157,6 +169,8 @@ header{
     padding: 0.2em 0;
     color: #fff;
     font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Source Serif Pro', serif;
     font-weight: 100;
     display: table-cell;
 	vertical-align: middle;
@@ -213,7 +227,7 @@ header{
 
 
 
-.services {
+.skills {
     max-width: 293px;
     height: 263px;
 }
@@ -363,6 +377,16 @@ header{
 	background: transparent;
 	border: 1px solid #fff;
 }
+
+.button2{
+	background: transparent;
+	border: 1px solid #000;
+}
+.button2:hover {
+    background: #B5B5B5;
+    color: #B5B5B5;
+}
+
 .button:hover {
     background: white;
     color: #000;
@@ -389,35 +413,6 @@ header{
 /* /////////////////////////////////////////////////////////////////////
 //  06 - Testimonial
 /////////////////////////////////////////////////////////////////////*/
-
-#testimonial {
-    background: url(../images/parallax.jpg);
-    padding: 80px 0px 80px 0px;
-    color: #fff;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.testimonila-block {
-    text-align: center;
-}
-.testimonila-block img {
-    border-radius: 50%;
-    border: 1px solid #000;
-    max-width: 200px;
-    max-height: 200px;
-    margin-bottom: 30px;
-}
-.testimonila-block p {
-    max-width: 60%;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    font-style: italic;
-    font-size: 18px;
-}
-.testimonila-block strong {
-    font-size: 2em;
-}
 
 
 /* /////////////////////////////////////////////////////////////////////
@@ -496,6 +491,8 @@ header{
     background-color: rgba(0, 0, 0, 0.75) !important;
     padding: 30px 0px 30px 0px;
     position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Source Serif Pro', serif;
 }
 .normal-txt {
     color: #fff;
@@ -526,8 +523,8 @@ header{
 .social-icons a:hover {
     background-position: 0px -50px;
 }
-.facebook{
-	background-image: url(../images/facebook.png);
+.github{
+	background-image: url(../images/github.png);
 }
 .twitter{
 	background-image: url(../images/twitter.png);
@@ -538,8 +535,8 @@ header{
 .linkedin{
 	background-image: url(../images/linkedin.png);
 }
-.wordpress{
-	background-image: url(../images/wordpress.png);
+.medium{
+	background-image: url(../images/medium.png);
 }
 
 
@@ -590,7 +587,7 @@ footer {
 
 @media all and (max-width: 1200px) and (min-width: 992px) {
 
-	.services {
+	.skills {
 		max-width: 293px;
 		height: 213px;
 	}
@@ -609,7 +606,7 @@ footer {
 
 @media all and (max-width: 991px) and (min-width: 768px) {
 
-	.services {
+	.skills {
 		max-width: 293px;
 		height: 293px;
 		margin: 0 auto;
@@ -636,7 +633,7 @@ footer {
 }
 
 @media all and (max-width: 768px) {
-	.services {
+	.skills {
 		max-width: 293px;
 		height: 293px;
 		margin: 0 auto;
@@ -686,6 +683,8 @@ footer {
 	}
 	.subheadline {
 	    font-family: 'Titillium Web',sans-serif;
+      font-family: 'Ubuntu', sans-serif;
+      font-family: 'Source Serif Pro', serif;
 	    font-size: 1.5em;
 	    font-weight: 200;
 	    margin: 0;

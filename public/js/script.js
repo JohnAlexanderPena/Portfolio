@@ -49,7 +49,7 @@ var $ = jQuery;
   function centerHomeBannerText() {
       var bannerText = jQuery('#header > .center');
       var bannerTextTop = (jQuery('#header').actual('height')/2) - (jQuery('#header > .center').actual('height')/2) - 40;
-      
+
       bannerText.css('padding-top', bannerTextTop+'px');
       bannerText.show();
   }
@@ -133,11 +133,11 @@ let origOffsetY = menu.offset().top;
 function scroll() {
    if ($(window).scrollTop() >= origOffsetY) {
        $('#navigation').addClass('nav-wrap');
-       $('#services').addClass('exp');
+       $('#skills').addClass('exp');
        //jQuery('.content').addClass('menu-padding');
    } else {
        $('#navigation').removeClass('nav-wrap');
-       $('#services').removeClass('exp');
+       $('#skills').removeClass('exp');
        //$('.content').removeClass('menu-padding');
    }
 
