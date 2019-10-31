@@ -19,18 +19,19 @@ function App() {
                   <h1 className="bigheadline">John Peña</h1>
                   <h4 className="subheadline">Software Engineer</h4>
               </div>
-              <h1>
+              <h3>
                 <i className="pe-7s-portfolio pe-dj pe-va" /><span><a href={pdf}>  View Resume</a></span>
-              </h1>
+              </h3>
               <div className="bottom">
                 <a data-scroll href="#navigation" className="scrollDown animated pulse" id="scrollToContent"><i className="pe-7s-angle-down-circle pe-va"></i></a>
               </div>
-          </header>
+            </header>
   <Nav />
   <Skills />
   <Projects />
   <ContactInfo />
-</div>
+
+  </div>
   );
 }
 
