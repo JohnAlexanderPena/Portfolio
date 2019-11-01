@@ -4,7 +4,7 @@ import Nav from './Nav'
 import Skills from './Skills'
 import Projects from './Projects'
 import ContactInfo from './Contact'
-import pdf from './resume/FinalResumeCopy.pdf'
+import pdf from './resume/FinalResumecopy.pdf'
 
 
 
