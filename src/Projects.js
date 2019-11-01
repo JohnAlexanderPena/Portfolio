@@ -11,7 +11,7 @@ return (
               <img src="http://i.imgur.com/a2ziX.jpg" alt="img04" />
               <figcaption>
                 <span>John Peña</span>
-                <a target="_blank" rel="noopener noreferrer" href={"https://youtu.be/Ogd-7ScQ6Lk"} className="button">Video Demo</a>
+                <a target="_blank" rel="noopener noreferrer" href={"https://youtu.be/hpIcT3D1bpc"} className="button">Video Demo</a>
               </figcaption>
               <h3>NYC Dollar Pizza</h3>
             </figure>
