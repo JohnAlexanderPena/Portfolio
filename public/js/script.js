@@ -125,8 +125,6 @@ $(document).ready(function(){
   // Header Fixed
   ///////////////////////////////
 
-
-
 let menu = $('#navigation');
 let origOffsetY = menu.offset().top;
 
