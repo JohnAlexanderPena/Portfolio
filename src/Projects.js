@@ -35,7 +35,7 @@ return (
               <img src="https://s3.amazonaws.com/btoimage/prism-thumbnails/uploads/2018/06/28/20180627_150147.jpg-resize-_opacity_100-frame_bg_color_FFF-h_2500-gravity_center-q_70-preserve_ratio_true-w_1400_.webp" alt="img01" />
               <figcaption>
                 <span>John Peña</span>
-                <a target="_blank" rel="noopener noreferrer" href={"empty"} className="button">Video Demo Coming Soon</a>
+                <a target="_blank" rel="noopener noreferrer" href={"https://www.youtube.com/watch?v=k1XcuJ-1P1c&feature=youtu.be"} className="button">Video Demo</a>
               </figcaption>
               <h3>Shoe Store Website</h3>
             </figure>
