@@ -15,26 +15,30 @@ const ContactInfo = () => {
             <div className="col-sm-6">
               <div className="moreDetails">
                 <h2 className="con-title">More About me</h2>
-                <p> Caution! Very cool story ahead.. A little background, I was born in New York and raised by a single immigrant mother from Mexico.
+                <p>A little background, I was born in New York and raised by a single immigrant mother from Mexico.
                   So yes, yo hablo español, add that to the list of languages I know haha.<br/>
                 I love solving riddles, puzzles, and always on the look for the next challenge! Programming has been the most amazing
-                 life changing decision I made, and I fell in love with the never-ending learning experience that comes with it!
+                  career choice I made, and I fell in love with the never-ending learning experience that comes with it!
                  </p>
                  <p>
                 When I'm not doing anything code related I'm either watching documentaries, entering Youtube rabbit holes, listening to podcasts,
                   or playing videos games on PC or my PS4. Anywho, if there's anything else you'd like to know, shoot me an email and I'll definitely get back to you! Thanks for reading!
                     </p>
               </div>
+
             </div>
               <i className="pe-7s-portfolio pe-dj pe-va" />
               <h1>
-              <a href={pdf}>View Resume</a>
+              <a href={pdf}>View Resume</a><br/>
               </h1>
+
+
                   <i className="pe-7s-map-marker" /><span>   Queens, NY,<br />United States</span><br />
                   <i className="pe-7s-mail" /><span>  jpena91@@gmail.com</span><br />
                   <i className="pe-7s-phone" /><span>  646-920-5848</span><br />
           </div>
         </div>
+        <a style={{ margin: 'auto', display: 'block' }} href="https://www.testdome.com/cert/85195c8d45ba45a1a21cfb0d2dfdfa80" class="testdome-certificate-stamp gold"><span class="testdome-certificate-name">John Pena</span><span class="testdome-certificate-test-name">JavaScript </span><span class="testdome-certificate-card-logo">TestDome<br />Certificate</span></a>
       </div>
       <div id="social">
       <div className="container">
@@ -47,6 +51,7 @@ const ContactInfo = () => {
               <li className="social-icons"><a target="_blank" rel="noopener noreferrer" className="github" href={"https://github.com/JohnAlexanderPena"} /></li>
 
             </ul>
+
           </div>
         </div>
       </div>
