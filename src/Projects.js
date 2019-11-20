@@ -44,13 +44,15 @@ return (
           </div>
           <div className="col-md-4 col-sm-6 col-xs-12 item-space">
             <figure>
-              <img src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX20130499.jpg" alt="img01" />
+              <img src="https://www.lifewire.com/thmb/2nNGHcz-jvKDBWlXKgb1hx5e5pk=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-665146638-5aa1c20a6edd6500361782c0.jpg" alt="img01" />
               <figcaption>
                 <span>John Peña</span>
-                <a href="NothingHereChief" className="button">In Progress</a>
+                <a href={"none"} className="button">Video Coming Soon</a>
               </figcaption>
-              <h3>Networking Website in Progress....</h3>
+              <h3>Developers Forum Website</h3>
             </figure>
+            <button className="button2"><a target="_blank" rel="noopener noreferrer" href={"https://github.com/JohnAlexanderPena/developers-networking-app"}>Backend Code</a></button>
+            <button className="button2"><a target="_blank" rel="noopener noreferrer" href={"https://github.com/JohnAlexanderPena/developers-networking-app/tree/master/client"}>Front End Code</a></button>
           </div>
         </div>
       </div>
