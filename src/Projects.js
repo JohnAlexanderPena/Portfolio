@@ -47,7 +47,7 @@ return (
               <img src="https://www.lifewire.com/thmb/2nNGHcz-jvKDBWlXKgb1hx5e5pk=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-665146638-5aa1c20a6edd6500361782c0.jpg" alt="img01" />
               <figcaption>
                 <span>John Peña</span>
-                <a href={"https://www.youtube.com/watch?v=9sX1s4ygsD8&feature=youtu.be"} className="button">Video Coming Soon</a>
+                <a href={"https://www.youtube.com/watch?v=9sX1s4ygsD8&feature=youtu.be"} className="button">Video Demo</a>
               </figcaption>
               <h3>Developers Forum Website</h3>
             </figure>
