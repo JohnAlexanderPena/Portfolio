@@ -89,7 +89,7 @@ return (
               <img src="../images/watches.png" alt="img01" />
               <figcaption>
                 <span>John Peña</span>
-                <a href={""} className="button">Video Coming Soon</a>
+                <a href={"https://youtu.be/LSyhnQ3UYW4"} className="button">Video Demo</a>
               </figcaption>
               <h3>Master Watch Collection</h3>
             </figure>
