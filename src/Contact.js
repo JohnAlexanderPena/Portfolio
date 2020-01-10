@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from './resume/FinalResumecopy.pdf'
+import pdf from './resume/JohnPenaResume.pdf'
 
 
 const ContactInfo = () => {
