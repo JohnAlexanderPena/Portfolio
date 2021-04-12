@@ -5,7 +5,7 @@ const Skills = () => {
     position: "center",
     "padding-top": "10px",
     width: "50%",
-    height: "50%"
+    height: "50%",
   };
 
   return (
@@ -85,8 +85,40 @@ const Skills = () => {
             <div className="skills">
               <div className="service-wrap">
                 <img
+                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.dribbble.com%2Fusers%2F528264%2Fscreenshots%2F3140440%2Ffirebase_logo.png&f=1&nofb=1"
+                  style={iconStyle}
+                  alt="firebase"
+                />
+                <h3>Firebase</h3>
+                <p>
+                  Experience using firebase as a database and login/signup
+                  authenticator for frontend applications.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-6">
+            <div className="skills">
+              <div className="service-wrap">
+                <img
+                  src="          http://techgenix.com/tgwordpress/wp-content/uploads/2018/11/ibmcloudlogo.png                  "
+                  style={iconStyle}
+                  alt="MongoDb"
+                />
+                <h3>IBM Cloud</h3>
+                <p>
+                  Experience with IBM Cloud services & APIS to configure
+                  chatbots, video and audio analyzers.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-6">
+            <div className="skills">
+              <div className="service-wrap">
+                <img
                   src="../images/mongo.png"
-                  style={{ iconStyle }}
+                  style={iconStyle}
                   alt="MongoDb"
                 />
                 <h3>MongoDB</h3>
@@ -102,7 +134,7 @@ const Skills = () => {
               <div className="service-wrap">
                 <img
                   src="../images/express.png"
-                  style={{ height: "50%", width: "50%" }}
+                  style={iconStyle}
                   alt="Express"
                 />
                 <h3>Express</h3>
@@ -118,7 +150,7 @@ const Skills = () => {
               <div className="service-wrap">
                 <img
                   src="../images/aws.png"
-                  style={{ height: "50%", width: "50%" }}
+                  style={iconStyle}
                   alt="Amazon Web Services"
                 />
                 <h3>Amazon Web Services</h3>
