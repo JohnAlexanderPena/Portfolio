@@ -309,15 +309,27 @@ const Projects = () => {
           <div className="col-md-4 col-sm-6 col-xs-12 item-space">
             <figure style={{ borderTop: "2px solid black" }}>
               <img src={"../images/Insta.png"} alt="img02" />
+              {/* <figcaption>
+                <a
+                href={"https://www.youtube.com/watch?v=OAnQ9GcJOn4"}
+                className="button"
+                >
+                Video Demo
+                </a>
+              </figcaption> */}
               <figcaption>
                 <span>John Peña</span>
+
                 <a
-                  href={"https://www.youtube.com/watch?v=OAnQ9GcJOn4"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={"https://ig-clone-9928f.web.app/login"}
                   className="button"
                 >
-                  Video Demo
+                  Live Demo
                 </a>
               </figcaption>
+
               <h3>Instagram Clone</h3>
             </figure>
             Built With:
@@ -344,6 +356,16 @@ const Projects = () => {
                 href={"https://github.com/JohnAlexanderPena/IG-Clone"}
               >
                 Code
+              </a>
+            </button>
+            <button className="button2">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={"https://ig-clone-9928f.web.app/login"}
+                className="button"
+              >
+                Live Demo
               </a>
             </button>
           </div>

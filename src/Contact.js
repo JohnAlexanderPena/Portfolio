@@ -15,17 +15,16 @@ const ContactInfo = () => {
               <div className="moreDetails">
                 <h2 className="con-title">More About me</h2>
                 <p>
-                  Born and raised in New York from with a spanish background.
-                  Love to do hikes and anything that involved awesome views and
-                  fresh air. Grew up always fascinated with computers, I always
-                  found myself fiddling and making changes to the hardware on my
-                  computer. I love to work on computers as a little hobby. Took
-                  me a while to realize that I could actually code programs
-                  myself even.
+                  Born and raised in New York with a spanish background. Love to
+                  do hikes and anything that involves awesome views and fresh
+                  air. Grew up always fascinated with computers, I always found
+                  myself fiddling and making changes to the hardware on my own
+                  computer as a hobby. Took me a while to realize that I could
+                  actually code programs myself even.
                   <br />I started to program a bit and eventually decided to
                   take a leap into the field and see what it's really about.
-                  Ever since my first Hello World, I fell in love with the idea
-                  of creating your own websites. I've since completed a
+                  Ever since my first 'Hello World', I fell in love with the
+                  idea of creating your own websites. I've since completed a
                   bootcamp, built small apps and now currently working as a Full
                   Stack Engineer at a small startup!
                 </p>
@@ -53,7 +52,7 @@ const ContactInfo = () => {
             </span>
             <br />
             <i className="pe-7s-mail" />
-            <span> johnP.codes@gmail.com</span>
+            <span> JohnP.codes@gmail.com</span>
             <br />
             <i className="pe-7s-phone" />
             <span> 646-920-5848</span>
